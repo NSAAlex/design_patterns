@@ -18,7 +18,7 @@ public class star extends TreeDecorator {
         for (int i = 0; i < starLines.size(); i++) {
             String line = starLines.get(i);
             if (line.contains("Y")) {
-                starLines.set(i, line.replace(" ", "Y"));
+                starLines.set(i, line.replace("Y", " "));
                 
             }
         }
